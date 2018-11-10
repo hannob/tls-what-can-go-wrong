@@ -80,6 +80,12 @@ HTTP/HTTPS related
  * [SSL Stripping](https://moxie.org/software/sslstrip/)
  * Insecure redirects (e.g. https:// -> http://www. -> https://www.)
 
+Parsing issues
+
+ * [Heartbleed](http://heartbleed.com/)
+ * [STARTTLS command injection](https://www.kb.cert.org/vuls/id/555316/)
+ * Version intolerance, large handshake intolerance, middlebox breakage, ...
+
 Others
 
  * [Insecure Renegotiation](https://tools.ietf.org/html/rfc5746)
@@ -87,6 +93,4 @@ Others
  * [Virtual Host Confusion](https://bh.ht.vc/vhost_confusion.pdf)
  * [Cookie cutter](https://hal.inria.fr/hal-01102259/file/triple-handshakes-and-cookie-cutters-oakland14.pdf)
  * [SLOTH](https://www.mitls.org/pages/attacks/SLOTH)
- * [STARTTLS command injection](https://www.kb.cert.org/vuls/id/555316/)
  * Carry propagation bugs / math bugs (can cause RSA-CRT bug, [Squeezing a key through a carry bit](https://www.youtube.com/watch?v=HaUtPd-x7VM))
- * Version intolerance, large handshake intolerance, middlebox breakage, ...

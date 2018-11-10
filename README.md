@@ -59,6 +59,10 @@ GCM
  * Duplicate or random nonces ([Forbidden attack](http://csrc.nist.gov/groups/ST/toolkit/BCM/documents/Joux_comments.pdf), [Nonce-disrespecting adversaries](https://github.com/nonce-disrespect/nonce-disrespect))
  * Lack of ghash check (not found in the wild yet)
 
+Small block size
+
+ * [Sweet32](https://sweet32.info/)
+
 RC4
 
  * [RC4 Biases](http://www.isg.rhul.ac.uk/tls/), cipher design problem, unfixable

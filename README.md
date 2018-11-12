@@ -15,12 +15,12 @@
 
 #### RSA signature handshake
 
- * [RSA-CRT bug](https://securityblog.redhat.com/2015/09/02/factoring-rsa-keys-with-tls-perfect-forward-secrecy/) / modexp miscalculation (signature generation)
+ * [RSA-CRT bug](https://securityblog.redhat.com/2015/09/02/factoring-rsa-keys-with-tls-perfect-forward-secrecy/)/modexp miscalculation (signature generation)
  * [Bleichenbacher signature forgery](https://www.ietf.org/mail-archive/web/openpgp/current/msg00999.html), [BERserk](http://www.c7zero.info/stuff/BERserk_eko10.pdf) (signature verification)
 
 #### ECDSA/DSA handshake
 
- * Duplicate r (not found in the wild yet)
+ * Duplicate `r` (not found in the wild yet)
 
 #### Static DH/ECDH handshake
 
@@ -36,7 +36,7 @@
 #### ECDHE
 
  * [Curveswap](https://eprint.iacr.org/2018/298.pdf)
- * [Invalid Curve attack](https://web-in-security.blogspot.com/2015/09/practical-invalid-curve-attacks.html) / ephemeral key reuse
+ * [Invalid Curve attack](https://web-in-security.blogspot.com/2015/09/practical-invalid-curve-attacks.html)/ephemeral key reuse
 
 #### Finished message
 

@@ -52,7 +52,7 @@
  * [POODLE](https://www.openssl.org/~bodo/ssl-poodle.pdf) (SSLv3)
  * Lack of padding check in TLS 1.0 and later ([POODLE-TLS](https://www.imperialviolet.org/2014/12/08/poodleagain.html))
  * Partial padding checks, [More POODLEs in the forest](https://yngve.vivaldi.net/2015/07/14/there-are-more-poodles-in-the-forest/)
- * MACE / Lack of HMAC check, also partial checks [Poodle has friends](https://yngve.vivaldi.net/2015/07/14/the-poodle-has-friends/)
+ * MACE/Lack of HMAC check, also partial checks [Poodle has friends](https://yngve.vivaldi.net/2015/07/14/the-poodle-has-friends/)
 
 #### GCM
 
@@ -98,3 +98,9 @@
  * [Cookie cutter](https://hal.inria.fr/hal-01102259/file/triple-handshakes-and-cookie-cutters-oakland14.pdf)
  * [SLOTH](https://www.mitls.org/pages/attacks/SLOTH)
  * Carry propagation bugs/math bugs (can cause RSA-CRT bug, [Squeezing a key through a carry bit](https://www.youtube.com/watch?v=HaUtPd-x7VM))
+
+#### SSL/Security testing tools
+
+ * [SSLLabs Scanner](https://www.ssllabs.com/ssltest/)
+ * [BadSSL](https://badssl.com/)
+ * [tlsfun.de](https://tlsfun.de/)

@@ -98,5 +98,5 @@ Others
  * [Cookie cutter](https://hal.inria.fr/hal-01102259/file/triple-handshakes-and-cookie-cutters-oakland14.pdf)
  * [SLOTH](https://www.mitls.org/pages/attacks/SLOTH)
  * Carry propagation bugs / math bugs (can cause RSA-CRT bug, [Squeezing a key through a carry bit](https://www.youtube.com/watch?v=HaUtPd-x7VM))
- * CPU cache side channels allowing private key recovery across processes/VMs (, [PortSmash (ECDSA and DSA keys)](https://eprint.iacr.org/2018/1060), [CVE-2018-0737 (RSA keys)](https://www.openssl.org/news/secadv/20180416.txt))
+ * CPU cache side channels allowing private key recovery across processes/VMs ([PortSmash (ECDSA and DSA keys)](https://eprint.iacr.org/2018/1060), [CVE-2018-0737 (RSA keys)](https://www.openssl.org/news/secadv/20180416.txt))
  * Timing side channels against symmetric ciphers ([AES](https://cr.yp.to/antiforgery/cachetiming-20050414.pdf))

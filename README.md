@@ -84,11 +84,13 @@ HTTP/HTTPS related
  * [SSL Stripping](https://moxie.org/software/sslstrip/)
  * Insecure redirects (e.g. https:// -> http://www. -> https://www.)
 
-Parsing issues
+Parsing and validation logic issues
 
  * [Heartbleed](http://heartbleed.com/)
  * [STARTTLS command injection](https://www.kb.cert.org/vuls/id/555316/)
  * Version intolerance, large handshake intolerance, middlebox breakage, ...
+ * [Frankencerts](https://www.cs.utexas.edu/~shmat/shmat_oak14.pdf#page=11)
+ * [goto fail](https://www.imperialviolet.org/2014/02/22/applebug.html)
 
 Others
 

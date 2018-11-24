@@ -1,7 +1,7 @@
 TLS - what can go wrong?
 ========================
 
-RSA Key generation
+Key generation
 
  * [Debian weak keys](https://wiki.debian.org/SSLkeys)
  * [ROCA](https://crocs.fi.muni.cz/public/papers/rsa_ccs17)

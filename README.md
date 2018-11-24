@@ -11,7 +11,7 @@ Key generation
 RSA encryption handshake
 
  * [Bleichenbacher](http://archiv.infsec.ethz.ch/education/fs08/secsem/bleichenbacher98.pdf), [Klima](https://eprint.iacr.org/2003/052), [ROBOT](https://robotattack.org/) etc. attacks
- * SSLv2 Bleichenbacher attack ([https://drownattack.com/](DROWN))
+ * SSLv2 Bleichenbacher attack ([DROWN](https://drownattack.com/))
 
 RSA signature handshake
 

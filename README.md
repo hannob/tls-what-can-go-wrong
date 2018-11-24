@@ -17,10 +17,12 @@ RSA signature handshake
 
  * [RSA-CRT bug](https://securityblog.redhat.com/2015/09/02/factoring-rsa-keys-with-tls-perfect-forward-secrecy/) / modexp miscalculation (signature generation)
  * [Bleichenbacher signature forgery](https://www.ietf.org/mail-archive/web/openpgp/current/msg00999.html), [BERserk](http://www.c7zero.info/stuff/BERserk_eko10.pdf) (signature verification)
+ * [Timing side channel](https://users.ece.cmu.edu/~dbrumley/pdf/Brumley,%20Boneh_2003_Remote%20timing%20attacks%20are%20practical.pdf) allowing remote key recovery
 
 ECDSA / DSA handshake
 
  * Duplicate r (not found in the wild yet)
+ * [Timing side channel](https://eprint.iacr.org/2011/232) allowing remote key recovery
 
 Static DH/ECDH handshake
 

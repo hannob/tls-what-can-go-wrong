@@ -17,12 +17,10 @@ RSA signature handshake
 
  * [RSA-CRT bug](https://securityblog.redhat.com/2015/09/02/factoring-rsa-keys-with-tls-perfect-forward-secrecy/) / modexp miscalculation (signature generation)
  * [Bleichenbacher signature forgery](https://www.ietf.org/mail-archive/web/openpgp/current/msg00999.html), [BERserk](http://www.c7zero.info/stuff/BERserk_eko10.pdf) (signature verification)
- * [Timing side channel](https://users.ece.cmu.edu/~dbrumley/pdf/Brumley,%20Boneh_2003_Remote%20timing%20attacks%20are%20practical.pdf) allowing remote key recovery
 
 ECDSA / DSA handshake
 
  * Duplicate r (not found in the wild yet)
- * [Timing side channel](https://eprint.iacr.org/2011/232) allowing remote key recovery
 
 Static DH/ECDH handshake
 
@@ -94,6 +92,13 @@ Parsing and validation logic issues
  * [Frankencerts](https://www.cs.utexas.edu/~shmat/shmat_oak14.pdf#page=11)
  * [goto fail](https://www.imperialviolet.org/2014/02/22/applebug.html)
 
+Sidechannels
+
+ * [Timing side channel](https://users.ece.cmu.edu/~dbrumley/pdf/Brumley,%20Boneh_2003_Remote%20timing%20attacks%20are%20practical.pdf) allowing remote key recovery
+ * Timing side channels against symmetric ciphers ([AES](https://cr.yp.to/antiforgery/cachetiming-20050414.pdf))
+ * [Timing side channel](https://eprint.iacr.org/2011/232) allowing remote key recovery
+ * CPU cache side channels allowing private key recovery across processes/VMs ([PortSmash (ECDSA and DSA keys)](https://eprint.iacr.org/2018/1060), [CVE-2018-0737 (RSA keys)](https://www.openssl.org/news/secadv/20180416.txt))
+
 Others
 
  * [Insecure Renegotiation](https://tools.ietf.org/html/rfc5746)
@@ -102,5 +107,3 @@ Others
  * [Cookie cutter](https://hal.inria.fr/hal-01102259/file/triple-handshakes-and-cookie-cutters-oakland14.pdf)
  * [SLOTH](https://www.mitls.org/pages/attacks/SLOTH)
  * Carry propagation bugs / math bugs (can cause RSA-CRT bug, [Squeezing a key through a carry bit](https://www.youtube.com/watch?v=HaUtPd-x7VM))
- * CPU cache side channels allowing private key recovery across processes/VMs ([PortSmash (ECDSA and DSA keys)](https://eprint.iacr.org/2018/1060), [CVE-2018-0737 (RSA keys)](https://www.openssl.org/news/secadv/20180416.txt))
- * Timing side channels against symmetric ciphers ([AES](https://cr.yp.to/antiforgery/cachetiming-20050414.pdf))

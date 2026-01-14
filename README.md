@@ -141,6 +141,13 @@ Also see: [badkeys](https://badkeys.info/)
   (ECDSA and DSA keys)](https://eprint.iacr.org/2018/1060),[CVE-2018-0737 (RSA keys)](
   https://www.openssl.org/news/secadv/20180416.txt))
 
+## Underlying protocol interactions
+
+* Cross-protocol attacks like [ALPACA](https://alpaca-attack.com/)
+* Unencrypted data channel in FTP (e.g.,
+  [https://github.com/python/cpython/issues/143497](
+  insecure default in Python's ftplib.FTP_TLS))
+
 ## Others
 
 * [Insecure Renegotiation](https://tools.ietf.org/html/rfc5746)
